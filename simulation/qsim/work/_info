@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Prueba_ADC\simulation\qsim
+vControl_Motor
+Z1 !s100 _me[oC[AAQ8>fA1:m:6P?3
+Z2 I8l_eedGOKTP3?6>GE0RSn0
+Z3 VF?^zZFAK;lLMf:PO5Sj0n2
+Z4 dD:\Prueba_ADC\simulation\qsim
+Z5 w1729457052
+Z6 8Motor_c_ADCs.vo
+Z7 FMotor_c_ADCs.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Motor_c_ADCs.vo|
+Z10 o-work work -O0
+Z11 n@control_@motor
+!i10b 1
+!s85 0
+Z12 !s108 1729457056.134000
+Z13 !s107 Motor_c_ADCs.vo|
+!s101 -O0
+vControl_Motor_vlg_check_tst
+!i10b 1
+Z14 !s100 AN_6GVEj[M<dWE5YKJ5UF0
+Z15 I71_9_dgKiVflM<lW>akW23
+Z16 Vm?H]0SA11=g`^I4S<=1b@0
+R4
+R5
+Z17 8Motor_c_ADCs.vt
+Z18 FMotor_c_ADCs.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1729457056.553000
+Z20 !s107 Motor_c_ADCs.vt|
+Z21 !s90 -work|work|Motor_c_ADCs.vt|
+!s101 -O0
+R10
+Z22 n@control_@motor_vlg_check_tst
+vControl_Motor_vlg_sample_tst
+!i10b 1
+Z23 !s100 DzW^7A6b_AM9XZ^6l7iiF0
+Z24 If5e>SKE;nYb_Pm5[`l8Dg0
+Z25 Vn45T^K@l2ooCAhcl>GI`l3
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@control_@motor_vlg_sample_tst
+vControl_Motor_vlg_vec_tst
+!i10b 1
+!s100 PLHO[>eOoaN13UN=N]:`]2
+I>IfzW_ciizgMnzT<KS54k0
+Z27 VQE>Rf?ok1APIdzeej?Qe92
+R4
+R5
+R17
+R18
+Z28 L0 253
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@control_@motor_vlg_vec_tst

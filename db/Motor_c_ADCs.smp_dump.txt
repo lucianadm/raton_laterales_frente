@@ -1,0 +1,17 @@
+
+State Machine - |Control_Motor|Motor_c_ADCs:inst7|fstate
+Name fstate.Avanza_gIzq fstate.g_Izq90 fstate.g_Der90 fstate.Derecha_cerca fstate.Izquierda_cerca fstate.Avanza_gDer 
+fstate.Avanza_gDer 0 0 0 0 0 0 
+fstate.Izquierda_cerca 0 0 0 0 1 1 
+fstate.Derecha_cerca 0 0 0 1 0 1 
+fstate.g_Der90 0 0 1 0 0 1 
+fstate.g_Izq90 0 1 0 0 0 1 
+fstate.Avanza_gIzq 1 0 0 0 0 1 
+
+State Machine - |Control_Motor|adc:inst2|adc_adc_mega_0:adc_mega_0|altera_up_avalon_adv_adc:ADC_CTRL|currState
+Name currState.doneState currState.transState currState.waitState currState.resetState currState.pauseState 
+currState.resetState 0 0 0 0 0 
+currState.waitState 0 0 1 1 0 
+currState.transState 0 1 0 1 0 
+currState.doneState 1 0 0 1 0 
+currState.pauseState 0 0 0 1 1 
